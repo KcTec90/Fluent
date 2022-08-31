@@ -97,15 +97,14 @@
 					background: rgb(var(--accent));
 				}
 	
-				// ~~Disabled icons (for now hopefully)
-				// &::before {
-				// 	content: "";
-				// 	width: 18px;
-				// 	height: 18px;
-				// 	display: block;
-				// 	background-size: cover;
-				// 	background-position: center;
-				// }
+				&::before {
+					content: "";
+					width: 18px;
+					height: 18px;
+					display: block;
+					background-size: cover;
+					background-position: center;
+				}
 				&::after {
 					content: "";
 					position: absolute;
